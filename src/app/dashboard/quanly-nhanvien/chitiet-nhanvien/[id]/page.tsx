@@ -2,8 +2,8 @@
 import React from "react";
 
 import { ShinyRotatingBorderButton } from "@/components/dashboard/ButtonSave/BtnSave"; 
-import FormLayoutEmployee from "@/components/dashboard/employee/viewEmployee/formLayout"; 
-import ImageEmployee from "@/components/dashboard/employee/viewEmployee/imageEmployee";
+// import FormLayoutEmployee from "@/components/dashboard/employee/viewEmployee/formLayout"; 
+// import ImageEmployee from "@/components/dashboard/employee/viewEmployee/imageEmployee";
 import GoBack from "@/components/dashboard/GoBack";
 import { useParams } from "next/navigation";
 const Page = () => {
@@ -19,7 +19,7 @@ const Page = () => {
       <div className="content-editProduct mt-10">
         <div className="flex gap-2 justify-between">
           <div className="w-[30%] show-product">
-            <ImageEmployee />
+            {/* <ImageEmployee /> */}
           </div>
           <div className="w-[70%] h-full">
             <div className="bg-[#282F36]  rounded-xl  ">
@@ -28,7 +28,7 @@ const Page = () => {
               </h3>
               <div className="border-t border-t-white/30">
                 <div className="p-4"> 
-                  <FormLayoutEmployee />
+                  {/* <FormLayoutEmployee /> */}
                 </div>
               </div>
             </div>

@@ -1,0 +1,1713 @@
+{
+  "category_paren": [
+    {
+      "id": "1",
+      "name": "Điện thoại"
+    },
+    {
+      "id": "2",
+      "name": "Tivi"
+    },
+    {
+      "id": "3",
+      "name": "Đồng hồ"
+    },
+    {
+      "id": "4",
+      "name": "Laptop"
+    },
+    {
+      "id": "5",
+      "name": "Tủ lạnh"
+    }
+  ],
+  "category_chil": [
+    {
+      "id": "101",
+      "name": "OPPO",
+      "parent_id": 1
+    },
+    {
+      "id": "102",
+      "name": "Samsung",
+      "parent_id": 1
+    },
+    {
+      "id": "103",
+      "name": "iPhone",
+      "parent_id": 1
+    },
+    {
+      "id": "104",
+      "name": "Xiaomi",
+      "parent_id": 1
+    },
+    {
+      "id": "105",
+      "name": "Vivo",
+      "parent_id": 1
+    },
+    {
+      "id": "201",
+      "name": "Samsung",
+      "parent_id": 2
+    },
+    {
+      "id": "202",
+      "name": "LG",
+      "parent_id": 2
+    },
+    {
+      "id": "203",
+      "name": "Sony",
+      "parent_id": 2
+    },
+    {
+      "id": "301",
+      "name": "Samsung",
+      "parent_id": 3
+    },
+    {
+      "id": "302",
+      "name": "Xiaomi",
+      "parent_id": 3
+    },
+    {
+      "id": "303",
+      "name": "Apple Watch",
+      "parent_id": 3
+    },
+    {
+      "id": "401",
+      "name": "HP",
+      "parent_id": 4
+    },
+    {
+      "id": "402",
+      "name": "Asus",
+      "parent_id": 4
+    },
+    {
+      "id": "403",
+      "name": "Dell",
+      "parent_id": 4
+    },
+    {
+      "id": "404",
+      "name": "MacBook",
+      "parent_id": 4
+    },
+    {
+      "id": "501",
+      "name": "Samsung",
+      "parent_id": 5
+    },
+    {
+      "id": "502",
+      "name": "LG",
+      "parent_id": 5
+    },
+    {
+      "id": "503",
+      "name": "Panasonic",
+      "parent_id": 5
+    },
+    {
+      "id": "504",
+      "name": "Sharp",
+      "parent_id": 5
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "product_name": "OPPO Reno8",
+      "product_image": "op1.jpg",
+      "product_price": 249.99,
+      "description": "A stylish smartphone with advanced features.",
+      "id_category": 101,
+      "quantity": 50,
+      "status": "available",
+      "rating": 4.5,
+      "review": "Great performance and camera quality.",
+      "color_option": [
+        "Black",
+        "Gold"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "OPPO",
+      "id_category_paren": 1
+    },
+    {
+      "id": "2",
+      "product_name": "OPPO Find X5",
+      "product_image": "op2.jpg",
+      "product_price": 599.99,
+      "description": "Flagship smartphone with premium features.",
+      "id_category": 101,
+      "quantity": 30,
+      "status": "available",
+      "rating": 4.8,
+      "review": "Excellent build quality and performance.",
+      "color_option": [
+        "White",
+        "Blue"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "OPPO",
+      "id_category_paren": 1
+    },
+    {
+      "id": "3",
+      "product_name": "OPPO A74",
+      "product_image": "op3.jpg",
+      "product_price": 199.99,
+      "description": "Affordable smartphone with good features.",
+      "id_category": 101,
+      "quantity": 70,
+      "status": "available",
+      "rating": 4.2,
+      "review": "Value for money.",
+      "color_option": [
+        "Black",
+        "Red"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "OPPO",
+      "id_category_paren": 1
+    },
+    {
+      "id": "4",
+      "product_name": "OPPO A95",
+      "product_image": "op4.jpg",
+      "product_price": 249.99,
+      "description": "A sleek and powerful smartphone.",
+      "id_category": 101,
+      "quantity": 40,
+      "status": "available",
+      "rating": 4.6,
+      "review": "Very good performance for the price.",
+      "color_option": [
+        "Black",
+        "Purple"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "OPPO",
+      "id_category_paren": 1
+    },
+    {
+      "id": "5",
+      "product_name": "Samsung Galaxy S21",
+      "product_image": "ss1.jpg",
+      "product_price": 799.99,
+      "description": "High-end smartphone with cutting-edge features.",
+      "id_category": 102,
+      "quantity": 25,
+      "status": "available",
+      "rating": 4.7,
+      "review": "Amazing camera and performance.",
+      "color_option": [
+        "Phantom Gray",
+        "Phantom White"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "Samsung",
+      "id_category_paren": 1
+    },
+    {
+      "id": "6",
+      "product_name": "Samsung Galaxy A52",
+      "product_image": "ss2.jpg",
+      "product_price": 349.99,
+      "description": "Mid-range smartphone with impressive features.",
+      "id_category": 102,
+      "quantity": 60,
+      "status": "available",
+      "rating": 4.5,
+      "review": "Great display and battery life.",
+      "color_option": [
+        "Awesome Black",
+        "Awesome Blue"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "Samsung",
+      "id_category_paren": 1
+    },
+    {
+      "id": "7",
+      "product_name": "Samsung Galaxy Z Fold3",
+      "product_image": "ss3.jpg",
+      "product_price": 1799.99,
+      "description": "Innovative foldable smartphone.",
+      "id_category": 102,
+      "quantity": 10,
+      "status": "available",
+      "rating": 4.6,
+      "review": "A game changer in mobile technology.",
+      "color_option": [
+        "Phantom Black",
+        "Phantom Silver"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "Samsung",
+      "id_category_paren": 1
+    },
+    {
+      "id": "8",
+      "product_name": "Samsung Galaxy S20 FE",
+      "product_image": "ss4.jpg",
+      "product_price": 699.99,
+      "description": "Flagship features at a more affordable price.",
+      "id_category": 102,
+      "quantity": 35,
+      "status": "available",
+      "rating": 4.4,
+      "review": "Excellent value for a flagship phone.",
+      "color_option": [
+        "Cloud Lavender",
+        "Cloud Mint"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "Samsung",
+      "id_category_paren": 1
+    },
+    {
+      "id": "9",
+      "product_name": "iPhone 14",
+      "product_image": "ip1.jpg",
+      "product_price": 999.99,
+      "description": "Latest iPhone with advanced features.",
+      "id_category": 103,
+      "quantity": 20,
+      "status": "available",
+      "rating": 4.9,
+      "review": "Best iPhone yet with amazing camera.",
+      "color_option": [
+        "Midnight",
+        "Starlight"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "iPhone",
+      "id_category_paren": 1
+    },
+    {
+      "id": "10",
+      "product_name": "iPhone 13",
+      "product_image": "ip2.jpg",
+      "product_price": 799.99,
+      "description": "Powerful smartphone with great performance.",
+      "id_category": 103,
+      "quantity": 30,
+      "status": "available",
+      "rating": 4.8,
+      "review": "Fantastic battery life.",
+      "color_option": [
+        "Blue",
+        "Pink"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "iPhone",
+      "id_category_paren": 1
+    },
+    {
+      "id": "11",
+      "product_name": "iPhone 12",
+      "product_image": "ip3.jpg",
+      "product_price": 699.99,
+      "description": "A great iPhone for everyday use.",
+      "id_category": 103,
+      "quantity": 40,
+      "status": "available",
+      "rating": 4.6,
+      "review": "Good performance and features.",
+      "color_option": [
+        "Black",
+        "White"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "iPhone",
+      "id_category_paren": 1
+    },
+    {
+      "id": "12",
+      "product_name": "iPhone SE",
+      "product_image": "ip4.jpg",
+      "product_price": 399.99,
+      "description": "Affordable iPhone with solid performance.",
+      "id_category": 103,
+      "quantity": 50,
+      "status": "available",
+      "rating": 4.5,
+      "review": "Best budget iPhone option.",
+      "color_option": [
+        "Black",
+        "Red"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "iPhone",
+      "id_category_paren": 1
+    },
+    {
+      "id": "13",
+      "product_name": "Xiaomi Redmi Note 11",
+      "product_image": "xm1.jpg",
+      "product_price": 199.99,
+      "description": "Affordable smartphone with great features.",
+      "id_category": 104,
+      "quantity": 60,
+      "status": "available",
+      "rating": 4.4,
+      "review": "Great value for money.",
+      "color_option": [
+        "Black",
+        "Blue"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "Xiaomi",
+      "id_category_paren": 1
+    },
+    {
+      "id": "14",
+      "product_name": "Xiaomi Mi 11",
+      "product_image": "xm2.jpg",
+      "product_price": 599.99,
+      "description": "High-performance smartphone with great features.",
+      "id_category": 104,
+      "quantity": 25,
+      "status": "available",
+      "rating": 4.6,
+      "review": "Amazing camera and performance.",
+      "color_option": [
+        "White",
+        "Gray"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "Xiaomi",
+      "id_category_paren": 1
+    },
+    {
+      "id": "15",
+      "product_name": "Xiaomi Poco F3",
+      "product_image": "xm3.jpg",
+      "product_price": 349.99,
+      "description": "Mid-range smartphone with flagship features.",
+      "id_category": 104,
+      "quantity": 40,
+      "status": "available",
+      "rating": 4.5,
+      "review": "Good performance and display.",
+      "color_option": [
+        "Black",
+        "Yellow"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "Xiaomi",
+      "id_category_paren": 1
+    },
+    {
+      "id": "16",
+      "product_name": "Vivo V21",
+      "product_image": "vv1.jpg",
+      "product_price": 299.99,
+      "description": "Slim design with impressive camera performance.",
+      "id_category": 105,
+      "quantity": 25,
+      "status": "available",
+      "rating": 4.2,
+      "review": "Great selfie camera and decent performance.",
+      "color_option": [
+        "Sunset Dazzle",
+        "Dusk Blue"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "Vivo",
+      "id_category_paren": 1
+    },
+    {
+      "id": "17",
+      "product_name": "Vivo X50 Pro",
+      "product_image": "vv2.jpg",
+      "product_price": 499.99,
+      "description": "High-end camera with Gimbal stabilization.",
+      "id_category": 105,
+      "quantity": 15,
+      "status": "available",
+      "rating": 4.7,
+      "review": "Exceptional camera quality with smooth stabilization.",
+      "color_option": [
+        "Alpha Grey",
+        "Gradient Blue"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "Vivo",
+      "id_category_paren": 1
+    },
+    {
+      "id": "18",
+      "product_name": "Vivo Y20s",
+      "product_image": "vv3.jpg",
+      "product_price": 199.99,
+      "description": "Affordable phone with large battery life.",
+      "id_category": 105,
+      "quantity": 30,
+      "status": "available",
+      "rating": 4,
+      "review": "Good value for the price with great battery.",
+      "color_option": [
+        "Obsidian Black",
+        "Nebula Blue"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "Vivo",
+      "id_category_paren": 1
+    },
+    {
+      "id": "2",
+      "product_name": "Samsung QLED 4K TV",
+      "product_image": "tv-ss1.jpg",
+      "product_price": 1299.99,
+      "description": "Experience stunning picture quality with QLED technology.",
+      "id_category": 201,
+      "id_category_paren": 2,
+      "quantity": 15,
+      "status": "available",
+      "rating": 4.7,
+      "review": "Brilliant colors and excellent brightness.",
+      "size_option": [
+        "55 inch",
+        "65 inch"
+      ],
+      "name_category_parent": "Tivi",
+      "name_category_child": "Samsung"
+    },
+    {
+      "id": "3",
+      "product_name": "Samsung Smart TV 4K",
+      "product_image": "tv-ss2.jpg",
+      "product_price": 999.99,
+      "description": "Smart TV with built-in apps and voice control.",
+      "id_category": 201,
+      "id_category_paren": 2,
+      "quantity": 20,
+      "status": "available",
+      "rating": 4.6,
+      "review": "Great user interface and easy setup.",
+      "size_option": [
+        "50 inch",
+        "55 inch"
+      ],
+      "name_category_parent": "Tivi",
+      "name_category_child": "Samsung"
+    },
+    {
+      "id": "4",
+      "product_name": "Samsung UHD TV",
+      "product_image": "tv-ss3.jpg",
+      "product_price": 799.99,
+      "description": "Ultra HD TV with vibrant colors and clarity.",
+      "id_category": 201,
+      "id_category_paren": 2,
+      "quantity": 10,
+      "status": "available",
+      "rating": 4.5,
+      "review": "Excellent value for a UHD TV.",
+      "size_option": [
+        "43 inch",
+        "50 inch"
+      ],
+      "name_category_parent": "Tivi",
+      "name_category_child": "Samsung"
+    },
+    {
+      "id": "5",
+      "product_name": "LG OLED TV",
+      "product_image": "tv-lg1.jpg",
+      "product_price": 1499.99,
+      "description": "Top-notch OLED technology for stunning visuals.",
+      "id_category": 202,
+      "id_category_paren": 2,
+      "quantity": 12,
+      "status": "available",
+      "rating": 4.8,
+      "review": "Incredible picture quality with deep blacks.",
+      "size_option": [
+        "55 inch",
+        "65 inch"
+      ],
+      "name_category_parent": "Tivi",
+      "name_category_child": "LG"
+    },
+    {
+      "id": "6",
+      "product_name": "LG NanoCell TV",
+      "product_image": "tv-lg2.jpg",
+      "product_price": 1099.99,
+      "description": "NanoCell technology for vibrant colors.",
+      "id_category": 202,
+      "id_category_paren": 2,
+      "quantity": 8,
+      "status": "available",
+      "rating": 4.6,
+      "review": "Great viewing angles and color accuracy.",
+      "size_option": [
+        "50 inch",
+        "55 inch"
+      ],
+      "name_category_parent": "Tivi",
+      "name_category_child": "LG"
+    },
+    {
+      "id": "7",
+      "product_name": "LG UHD TV",
+      "product_image": "tv-lg3.jpg",
+      "product_price": 799.99,
+      "description": "Affordable UHD TV with solid performance.",
+      "id_category": 202,
+      "id_category_paren": 2,
+      "quantity": 15,
+      "status": "available",
+      "rating": 4.4,
+      "review": "Good value for a UHD TV.",
+      "size_option": [
+        "43 inch",
+        "50 inch"
+      ],
+      "name_category_parent": "Tivi",
+      "name_category_child": "LG"
+    },
+    {
+      "id": "8",
+      "product_name": "Sony Bravia 4K TV",
+      "product_image": "tv-sony1.jpg",
+      "product_price": 1399.99,
+      "description": "Stunning picture quality with Bravia technology.",
+      "id_category": 203,
+      "id_category_paren": 2,
+      "quantity": 10,
+      "status": "available",
+      "rating": 4.8,
+      "review": "Exceptional detail and color accuracy.",
+      "size_option": [
+        "55 inch",
+        "65 inch"
+      ],
+      "name_category_parent": "Tivi",
+      "name_category_child": "Sony"
+    },
+    {
+      "id": "9",
+      "product_name": "Sony Smart TV",
+      "product_image": "tv-sony2.jpg",
+      "product_price": 999.99,
+      "description": "Smart TV with Google Assistant built-in.",
+      "id_category": 203,
+      "id_category_paren": 2,
+      "quantity": 15,
+      "status": "available",
+      "rating": 4.7,
+      "review": "Smooth performance and great app selection.",
+      "size_option": [
+        "50 inch",
+        "55 inch"
+      ],
+      "name_category_parent": "Tivi",
+      "name_category_child": "Sony"
+    },
+    {
+      "id": "10",
+      "product_name": "Sony 4K HDR TV",
+      "product_image": "tv-sony3.jpg",
+      "product_price": 1199.99,
+      "description": "4K HDR TV with immersive viewing experience.",
+      "id_category": 203,
+      "id_category_paren": 2,
+      "quantity": 8,
+      "status": "available",
+      "rating": 4.6,
+      "review": "Great contrast and vibrant colors.",
+      "size_option": [
+        "55 inch",
+        "65 inch"
+      ],
+      "name_category_parent": "Tivi",
+      "name_category_child": "Sony"
+    },
+    {
+      "id": "301",
+      "product_name": "Samsung Galaxy Watch 4",
+      "product_image": "dh-ss1.jpg",
+      "product_price": 249.99,
+      "description": "Smartwatch with health tracking features.",
+      "id_category": 301,
+      "id_category_paren": 3,
+      "quantity": 30,
+      "status": "available",
+      "rating": 4.5,
+      "review": "Great fitness tracking and battery life.",
+      "color_option": [
+        "Black",
+        "Silver"
+      ],
+      "name_category_parent": "Đồng hồ",
+      "name_category_child": "Samsung"
+    },
+    {
+      "id": "302",
+      "product_name": "Samsung Galaxy Watch Active 2",
+      "product_image": "dh-ss2.jpg",
+      "product_price": 199.99,
+      "description": "Stylish smartwatch with fitness features.",
+      "id_category": 301,
+      "id_category_paren": 3,
+      "quantity": 25,
+      "status": "available",
+      "rating": 4.6,
+      "review": "Lightweight and comfortable.",
+      "color_option": [
+        "Pink",
+        "Black"
+      ],
+      "name_category_parent": "Đồng hồ",
+      "name_category_child": "Samsung"
+    },
+    {
+      "id": "303",
+      "product_name": "Samsung Galaxy Fit 2",
+      "product_image": "dh-ss3.jpg",
+      "product_price": 99.99,
+      "description": "Fitness tracker with essential features.",
+      "id_category": 301,
+      "id_category_paren": 3,
+      "quantity": 50,
+      "status": "available",
+      "rating": 4.4,
+      "review": "Affordable fitness tracking.",
+      "color_option": [
+        "Black",
+        "Red"
+      ],
+      "name_category_parent": "Đồng hồ",
+      "name_category_child": "Samsung"
+    },
+    {
+      "id": "304",
+      "product_name": "Xiaomi Mi Watch",
+      "product_image": "dh-xm1.jpg",
+      "product_price": 129.99,
+      "description": "Affordable smartwatch with health features.",
+      "id_category": 302,
+      "id_category_paren": 3,
+      "quantity": 40,
+      "status": "available",
+      "rating": 4.5,
+      "review": "Good battery life and functionality.",
+      "color_option": [
+        "Black",
+        "White"
+      ],
+      "name_category_parent": "Đồng hồ",
+      "name_category_child": "Xiaomi"
+    },
+    {
+      "id": "305",
+      "product_name": "Xiaomi Mi Band 6",
+      "product_image": "dh-xm2.jpg",
+      "product_price": 59.99,
+      "description": "Fitness tracker with AMOLED display.",
+      "id_category": 302,
+      "id_category_paren": 3,
+      "quantity": 60,
+      "status": "available",
+      "rating": 4.7,
+      "review": "Great value for a fitness tracker.",
+      "color_option": [
+        "Black",
+        "Blue"
+      ],
+      "name_category_parent": "Đồng hồ",
+      "name_category_child": "Xiaomi"
+    },
+    {
+      "id": "306",
+      "product_name": "Xiaomi Amazfit Bip U Pro",
+      "product_image": "dh-xm3.jpg",
+      "product_price": 79.99,
+      "description": "Smartwatch with GPS and health tracking.",
+      "id_category": 302,
+      "id_category_paren": 3,
+      "quantity": 45,
+      "status": "available",
+      "rating": 4.6,
+      "review": "Feature-packed and affordable.",
+      "color_option": [
+        "Black",
+        "Pink"
+      ],
+      "name_category_parent": "Đồng hồ",
+      "name_category_child": "Xiaomi"
+    },
+    {
+      "id": "307",
+      "product_name": "Apple Watch Series 7",
+      "product_image": "dh-ap1.jpg",
+      "product_price": 399.99,
+      "description": "Premium smartwatch with advanced health features.",
+      "id_category": 303,
+      "id_category_paren": 3,
+      "quantity": 20,
+      "status": "available",
+      "rating": 4.9,
+      "review": "Best smartwatch with great features.",
+      "color_option": [
+        "Midnight",
+        "Starlight"
+      ],
+      "name_category_parent": "Đồng hồ",
+      "name_category_child": "Apple Watch"
+    },
+    {
+      "id": "308",
+      "product_name": "Apple Watch SE",
+      "product_image": "dh-ap2.jpg",
+      "product_price": 279.99,
+      "description": "Affordable Apple Watch with essential features.",
+      "id_category": 303,
+      "id_category_paren": 3,
+      "quantity": 25,
+      "status": "available",
+      "rating": 4.7,
+      "review": "Good performance at a lower price.",
+      "color_option": [
+        "Gold",
+        "Silver"
+      ],
+      "name_category_parent": "Đồng hồ",
+      "name_category_child": "Apple Watch"
+    },
+    {
+      "id": "309",
+      "product_name": "Apple Watch Series 6",
+      "product_image": "dh-ap3.jpg",
+      "product_price": 349.99,
+      "description": "Feature-rich smartwatch with ECG and fitness tracking.",
+      "id_category": 303,
+      "id_category_paren": 3,
+      "quantity": 15,
+      "status": "available",
+      "rating": 4.8,
+      "review": "Excellent features and performance.",
+      "color_option": [
+        "Black",
+        "White"
+      ],
+      "name_category_parent": "Đồng hồ",
+      "name_category_child": "Apple Watch"
+    },
+    {
+      "id": "401",
+      "product_name": "HP Pavilion x360",
+      "product_image": "mt-hp1.jpg",
+      "product_price": 599.99,
+      "description": "2-in-1 convertible laptop with great performance.",
+      "id_category": 401,
+      "id_category_paren": 4,
+      "quantity": 25,
+      "status": "available",
+      "rating": 4.5,
+      "review": "Versatile and powerful for everyday tasks.",
+      "color_option": [
+        "Silver",
+        "Black"
+      ],
+      "name_category_parent": "Laptop",
+      "name_category_child": "HP"
+    },
+    {
+      "id": "402",
+      "product_name": "HP Envy 13",
+      "product_image": "mt-hp2.jpg",
+      "product_price": 799.99,
+      "description": "Premium laptop with stunning design.",
+      "id_category": 401,
+      "id_category_paren": 4,
+      "quantity": 20,
+      "status": "available",
+      "rating": 4.6,
+      "review": "Great performance and battery life.",
+      "color_option": [
+        "Silver",
+        "Dark Green"
+      ],
+      "name_category_parent": "Laptop",
+      "name_category_child": "HP"
+    },
+    {
+      "id": "403",
+      "product_name": "HP Omen 15",
+      "product_image": "mt-hp3.jpg",
+      "product_price": 1299.99,
+      "description": "Gaming laptop with high-end specs.",
+      "id_category": 401,
+      "id_category_paren": 4,
+      "quantity": 15,
+      "status": "available",
+      "rating": 4.7,
+      "review": "Perfect for gamers and content creators.",
+      "color_option": [
+        "Black",
+        "Red"
+      ],
+      "name_category_parent": "Laptop",
+      "name_category_child": "HP"
+    },
+    {
+      "id": "404",
+      "product_name": "Asus ZenBook 14",
+      "product_image": "mt-as1.jpg",
+      "product_price": 899.99,
+      "description": "Slim and powerful laptop with a premium feel.",
+      "id_category": 402,
+      "id_category_paren": 4,
+      "quantity": 30,
+      "status": "available",
+      "rating": 4.8,
+      "review": "Amazing display and build quality.",
+      "color_option": [
+        "Royal Blue",
+        "Silver"
+      ],
+      "name_category_parent": "Laptop",
+      "name_category_child": "Asus"
+    },
+    {
+      "id": "405",
+      "product_name": "Asus ROG Zephyrus G14",
+      "product_image": "mt-as2.jpg",
+      "product_price": 1499.99,
+      "description": "Gaming laptop with a powerful GPU.",
+      "id_category": 402,
+      "id_category_paren": 4,
+      "quantity": 10,
+      "status": "available",
+      "rating": 4.9,
+      "review": "Top-tier performance for gaming.",
+      "color_option": [
+        "Moonlight White",
+        "Eclipse Gray"
+      ],
+      "name_category_parent": "Laptop",
+      "name_category_child": "Asus"
+    },
+    {
+      "id": "406",
+      "product_name": "Asus VivoBook 15",
+      "product_image": "mt-as3.jpg",
+      "product_price": 649.99,
+      "description": "Affordable laptop with solid performance.",
+      "id_category": 402,
+      "id_category_paren": 4,
+      "quantity": 40,
+      "status": "available",
+      "rating": 4.4,
+      "review": "Great value for everyday use.",
+      "color_option": [
+        "Slate Grey",
+        "Black"
+      ],
+      "name_category_parent": "Laptop",
+      "name_category_child": "Asus"
+    },
+    {
+      "id": "407",
+      "product_name": "Dell XPS 13",
+      "product_image": "mt-de1.jpg",
+      "product_price": 999.99,
+      "description": "High-performance ultrabook with a stunning display.",
+      "id_category": 403,
+      "id_category_paren": 4,
+      "quantity": 15,
+      "status": "available",
+      "rating": 4.8,
+      "review": "Perfect balance of power and portability.",
+      "color_option": [
+        "Platinum Silver",
+        "Rose Gold"
+      ],
+      "name_category_parent": "Laptop",
+      "name_category_child": "Dell"
+    },
+    {
+      "id": "408",
+      "product_name": "Dell Inspiron 15",
+      "product_image": "mt-de2.jpg",
+      "product_price": 749.99,
+      "description": "Reliable laptop for everyday tasks.",
+      "id_category": 403,
+      "id_category_paren": 4,
+      "quantity": 20,
+      "status": "available",
+      "rating": 4.5,
+      "review": "Good performance for the price.",
+      "color_option": [
+        "Black",
+        "Silver"
+      ],
+      "name_category_parent": "Laptop",
+      "name_category_child": "Dell"
+    },
+    {
+      "id": "409",
+      "product_name": "Dell G5 15",
+      "product_image": "mt-de3.jpg",
+      "product_price": 1099.99,
+      "description": "Gaming laptop with powerful graphics.",
+      "id_category": 403,
+      "id_category_paren": 4,
+      "quantity": 10,
+      "status": "available",
+      "rating": 4.6,
+      "review": "Excellent performance for gaming.",
+      "color_option": [
+        "Black",
+        "Blue"
+      ],
+      "name_category_parent": "Laptop",
+      "name_category_child": "Dell"
+    },
+    {
+      "id": "410",
+      "product_name": "MacBook Air M2",
+      "product_image": "mt-ap1.jpg",
+      "product_price": 999.99,
+      "description": "Lightweight laptop with M2 chip.",
+      "id_category": 404,
+      "id_category_paren": 4,
+      "quantity": 25,
+      "status": "available",
+      "rating": 4.9,
+      "review": "Exceptional performance and battery life.",
+      "color_option": [
+        "Silver",
+        "Space Gray"
+      ],
+      "name_category_parent": "Laptop",
+      "name_category_child": "MacBook"
+    },
+    {
+      "id": "411",
+      "product_name": "MacBook Pro 14",
+      "product_image": "mt-ap2.jpg",
+      "product_price": 1999.99,
+      "description": "Powerful laptop for professionals.",
+      "id_category": 404,
+      "id_category_paren": 4,
+      "quantity": 15,
+      "status": "available",
+      "rating": 4.8,
+      "review": "Great for video editing and design.",
+      "color_option": [
+        "Silver",
+        "Space Gray"
+      ],
+      "name_category_parent": "Laptop",
+      "name_category_child": "MacBook"
+    },
+    {
+      "id": "412",
+      "product_name": "MacBook Pro 16",
+      "product_image": "mt-ap3.jpg",
+      "product_price": 2499.99,
+      "description": "High-performance laptop with M1 chip.",
+      "id_category": 404,
+      "id_category_paren": 4,
+      "quantity": 10,
+      "status": "available",
+      "rating": 4.9,
+      "review": "Top choice for creatives.",
+      "color_option": [
+        "Silver",
+        "Space Gray"
+      ],
+      "name_category_parent": "Laptop",
+      "name_category_child": "MacBook"
+    },
+    {
+      "id": "501",
+      "product_name": "Samsung RF23M8070SR",
+      "product_image": "tt-ss1.jpg",
+      "product_price": 2499.99,
+      "description": "Side-by-side refrigerator with Family Hub.",
+      "id_category": 501,
+      "quantity": 10,
+      "status": "available",
+      "rating": 4.7,
+      "review": "Great features and energy-efficient.",
+      "color_option": [
+        "Stainless Steel",
+        "Black"
+      ],
+      "name_category_parent": "Tủ lạnh",
+      "name_category_child": "Samsung",
+      "id_category_paren": 5
+    },
+    {
+      "id": "502",
+      "product_name": "Samsung RF22K9381SG",
+      "product_image": "tt-ss2.jpg",
+      "product_price": 2399.99,
+      "description": "French door refrigerator with a sleek design.",
+      "id_category": 501,
+      "quantity": 15,
+      "status": "available",
+      "rating": 4.6,
+      "review": "Spacious and stylish.",
+      "color_option": [
+        "Black Stainless Steel",
+        "White"
+      ],
+      "name_category_parent": "Tủ lạnh",
+      "name_category_child": "Samsung",
+      "id_category_paren": 5
+    },
+    {
+      "id": "503",
+      "product_name": "Samsung RT18M6215SR",
+      "product_image": "tt-ss3.jpg",
+      "product_price": 1099.99,
+      "description": "Top freezer refrigerator with plenty of storage.",
+      "id_category": 501,
+      "quantity": 20,
+      "status": "available",
+      "rating": 4.5,
+      "review": "Affordable and reliable.",
+      "color_option": [
+        "Stainless Steel",
+        "Black"
+      ],
+      "name_category_parent": "Tủ lạnh",
+      "name_category_child": "Samsung",
+      "id_category_paren": 5
+    },
+    {
+      "id": "504",
+      "product_name": "LG LFXS28968S",
+      "product_image": "tt-lg1.jpg",
+      "product_price": 2799.99,
+      "description": "Smart French door refrigerator with InstaView.",
+      "id_category": 502,
+      "quantity": 12,
+      "status": "available",
+      "rating": 4.8,
+      "review": "Amazing features and design.",
+      "color_option": [
+        "Stainless Steel",
+        "Matte Black"
+      ],
+      "name_category_parent": "Tủ lạnh",
+      "name_category_child": "LG",
+      "id_category_paren": 5
+    },
+    {
+      "id": "505",
+      "product_name": "LG LTCS24223S",
+      "product_image": "tt-lg2.jpg",
+      "product_price": 899.99,
+      "description": "Top freezer refrigerator with spacious interior.",
+      "id_category": 502,
+      "quantity": 25,
+      "status": "available",
+      "rating": 4.5,
+      "review": "Great value for a top freezer model.",
+      "color_option": [
+        "Stainless Steel",
+        "White"
+      ],
+      "name_category_parent": "Tủ lạnh",
+      "name_category_child": "LG",
+      "id_category_paren": 5
+    },
+    {
+      "id": "506",
+      "product_name": "LG LRFVS3006S",
+      "product_image": "tt-lg3.jpg",
+      "product_price": 3299.99,
+      "description": "Smart refrigerator with dual ice makers.",
+      "id_category": 502,
+      "quantity": 8,
+      "status": "available",
+      "rating": 4.7,
+      "review": "Perfect for large families.",
+      "color_option": [
+        "Stainless Steel",
+        "Black"
+      ],
+      "name_category_parent": "Tủ lạnh",
+      "name_category_child": "LG",
+      "id_category_paren": 5
+    },
+    {
+      "id": "507",
+      "product_name": "Panasonic NR-F603GT",
+      "product_image": "tt-panasonic1.jpg",
+      "product_price": 1499.99,
+      "description": "Inverter refrigerator with flexible storage.",
+      "id_category": 503,
+      "quantity": 10,
+      "status": "available",
+      "rating": 4.6,
+      "review": "Very quiet and efficient.",
+      "color_option": [
+        "Silver",
+        "White"
+      ],
+      "name_category_parent": "Tủ lạnh",
+      "name_category_child": "Panasonic",
+      "id_category_paren": 5
+    },
+    {
+      "id": "508",
+      "product_name": "Panasonic NR-BS60MG",
+      "product_image": "tt-panasonic2.jpg",
+      "product_price": 1999.99,
+      "description": "Smart inverter refrigerator with no frost.",
+      "id_category": 503,
+      "quantity": 5,
+      "status": "available",
+      "rating": 4.7,
+      "review": "Good for keeping food fresh longer.",
+      "color_option": [
+        "Black",
+        "Silver"
+      ],
+      "name_category_parent": "Tủ lạnh",
+      "name_category_child": "Panasonic",
+      "id_category_paren": 5
+    },
+    {
+      "id": "509",
+      "product_name": "Panasonic NR-F507GT",
+      "product_image": "tt-panasonic3.jpg",
+      "product_price": 1199.99,
+      "description": "Energy-efficient refrigerator with large capacity.",
+      "id_category": 503,
+      "quantity": 20,
+      "status": "available",
+      "rating": 4.5,
+      "review": "Great storage and cooling performance.",
+      "color_option": [
+        "White",
+        "Silver"
+      ],
+      "name_category_parent": "Tủ lạnh",
+      "name_category_child": "Panasonic",
+      "id_category_paren": 5
+    },
+    {
+      "id": "510",
+      "product_name": "Sharp SJ-GD20A",
+      "product_image": "tt-sharp1.jpg",
+      "product_price": 699.99,
+      "description": "Top freezer refrigerator with energy-saving features.",
+      "id_category": 504,
+      "quantity": 15,
+      "status": "available",
+      "rating": 4.4,
+      "review": "Affordable and reliable performance.",
+      "color_option": [
+        "White",
+        "Black"
+      ],
+      "name_category_parent": "Tủ lạnh",
+      "name_category_child": "Sharp",
+      "id_category_paren": 5
+    },
+    {
+      "id": "511",
+      "product_name": "Sharp SJ-XP50A",
+      "product_image": "tt-sharp2.jpg",
+      "product_price": 849.99,
+      "description": "No frost refrigerator with modern design.",
+      "id_category": 504,
+      "quantity": 12,
+      "status": "available",
+      "rating": 4.6,
+      "review": "Stylish and efficient.",
+      "color_option": [
+        "Black",
+        "Silver"
+      ],
+      "name_category_parent": "Tủ lạnh",
+      "name_category_child": "Sharp",
+      "id_category_paren": 5
+    },
+    {
+      "id": "512",
+      "product_name": "Sharp SJ-FX73A",
+      "product_image": "tt-sharp3.jpg",
+      "product_price": 999.99,
+      "description": "Large capacity refrigerator with inverter technology.",
+      "id_category": 504,
+      "quantity": 8,
+      "status": "available",
+      "rating": 4.8,
+      "review": "Perfect for large families.",
+      "color_option": [
+        "Stainless Steel",
+        "Black"
+      ],
+      "name_category_parent": "Tủ lạnh",
+      "name_category_child": "Sharp",
+      "id_category_paren": 5
+    }
+  ],
+  "login": [
+    {
+      "id": "1",
+      "username": "thanhnv",
+      "password": "12345",
+      "role": "user"
+    },
+    {
+      "id": "2",
+      "username": "admin",
+      "password": "12345",
+      "role": "admin"
+    }
+  ],
+  "productParen": [
+    {
+      "id": "1",
+      "product_name": "OPPO Reno8",
+      "product_image": "op1.jpg",
+      "product_price": 249.99,
+      "description": "A stylish smartphone with advanced features.",
+      "id_category": 101,
+      "quantity": 50,
+      "status": "available",
+      "rating": 4.5,
+      "review": "Great performance and camera quality.",
+      "color_option": [
+        "Black",
+        "Gold"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "OPPO",
+      "id_category_paren": 1
+    },
+    {
+      "id": "2",
+      "product_name": "OPPO Find X5",
+      "product_image": "op2.jpg",
+      "product_price": 599.99,
+      "description": "Flagship smartphone with premium features.",
+      "id_category": 101,
+      "quantity": 30,
+      "status": "available",
+      "rating": 4.8,
+      "review": "Excellent build quality and performance.",
+      "color_option": [
+        "White",
+        "Blue"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "OPPO",
+      "id_category_paren": 1
+    },
+    {
+      "id": "3",
+      "product_name": "OPPO A74",
+      "product_image": "op3.jpg",
+      "product_price": 199.99,
+      "description": "Affordable smartphone with good features.",
+      "id_category": 101,
+      "quantity": 70,
+      "status": "available",
+      "rating": 4.2,
+      "review": "Value for money.",
+      "color_option": [
+        "Black",
+        "Red"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "OPPO",
+      "id_category_paren": 1
+    },
+    {
+      "id": "4",
+      "product_name": "OPPO A95",
+      "product_image": "op4.jpg",
+      "product_price": 249.99,
+      "description": "A sleek and powerful smartphone.",
+      "id_category": 101,
+      "quantity": 40,
+      "status": "available",
+      "rating": 4.6,
+      "review": "Very good performance for the price.",
+      "color_option": [
+        "Black",
+        "Purple"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "OPPO",
+      "id_category_paren": 1
+    },
+    {
+      "id": "5",
+      "product_name": "Samsung Galaxy S21",
+      "product_image": "ss1.jpg",
+      "product_price": 799.99,
+      "description": "High-end smartphone with cutting-edge features.",
+      "id_category": 102,
+      "quantity": 25,
+      "status": "available",
+      "rating": 4.7,
+      "review": "Amazing camera and performance.",
+      "color_option": [
+        "Phantom Gray",
+        "Phantom White"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "Samsung",
+      "id_category_paren": 1
+    },
+    {
+      "id": "6",
+      "product_name": "Samsung Galaxy A52",
+      "product_image": "ss2.jpg",
+      "product_price": 349.99,
+      "description": "Mid-range smartphone with impressive features.",
+      "id_category": 102,
+      "quantity": 60,
+      "status": "available",
+      "rating": 4.5,
+      "review": "Great display and battery life.",
+      "color_option": [
+        "Awesome Black",
+        "Awesome Blue"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "Samsung",
+      "id_category_paren": 1
+    },
+    {
+      "id": "7",
+      "product_name": "Samsung Galaxy Z Fold3",
+      "product_image": "ss3.jpg",
+      "product_price": 1799.99,
+      "description": "Innovative foldable smartphone.",
+      "id_category": 102,
+      "quantity": 10,
+      "status": "available",
+      "rating": 4.6,
+      "review": "A game changer in mobile technology.",
+      "color_option": [
+        "Phantom Black",
+        "Phantom Silver"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "Samsung",
+      "id_category_paren": 1
+    },
+    {
+      "id": "8",
+      "product_name": "Samsung Galaxy S20 FE",
+      "product_image": "ss4.jpg",
+      "product_price": 699.99,
+      "description": "Flagship features at a more affordable price.",
+      "id_category": 102,
+      "quantity": 35,
+      "status": "available",
+      "rating": 4.4,
+      "review": "Excellent value for a flagship phone.",
+      "color_option": [
+        "Cloud Lavender",
+        "Cloud Mint"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "Samsung",
+      "id_category_paren": 1
+    },
+    {
+      "id": "9",
+      "product_name": "iPhone 14",
+      "product_image": "ip1.jpg",
+      "product_price": 999.99,
+      "description": "Latest iPhone with advanced features.",
+      "id_category": 103,
+      "quantity": 20,
+      "status": "available",
+      "rating": 4.9,
+      "review": "Best iPhone yet with amazing camera.",
+      "color_option": [
+        "Midnight",
+        "Starlight"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "iPhone",
+      "id_category_paren": 1
+    },
+    {
+      "id": "10",
+      "product_name": "iPhone 13",
+      "product_image": "ip2.jpg",
+      "product_price": 799.99,
+      "description": "Powerful smartphone with great performance.",
+      "id_category": 103,
+      "quantity": 30,
+      "status": "available",
+      "rating": 4.8,
+      "review": "Fantastic battery life.",
+      "color_option": [
+        "Blue",
+        "Pink"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "iPhone",
+      "id_category_paren": 1
+    },
+    {
+      "id": "11",
+      "product_name": "iPhone 12",
+      "product_image": "ip3.jpg",
+      "product_price": 699.99,
+      "description": "A great iPhone for everyday use.",
+      "id_category": 103,
+      "quantity": 40,
+      "status": "available",
+      "rating": 4.6,
+      "review": "Good performance and features.",
+      "color_option": [
+        "Black",
+        "White"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "iPhone",
+      "id_category_paren": 1
+    },
+    {
+      "id": "12",
+      "product_name": "iPhone SE",
+      "product_image": "ip4.jpg",
+      "product_price": 399.99,
+      "description": "Affordable iPhone with solid performance.",
+      "id_category": 103,
+      "quantity": 50,
+      "status": "available",
+      "rating": 4.5,
+      "review": "Best budget iPhone option.",
+      "color_option": [
+        "Black",
+        "Red"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "iPhone",
+      "id_category_paren": 1
+    },
+    {
+      "id": "13",
+      "product_name": "Xiaomi Redmi Note 11",
+      "product_image": "xm1.jpg",
+      "product_price": 199.99,
+      "description": "Affordable smartphone with great features.",
+      "id_category": 104,
+      "quantity": 60,
+      "status": "available",
+      "rating": 4.4,
+      "review": "Great value for money.",
+      "color_option": [
+        "Black",
+        "Blue"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "Xiaomi",
+      "id_category_paren": 1
+    },
+    {
+      "id": "14",
+      "product_name": "Xiaomi Mi 11",
+      "product_image": "xm2.jpg",
+      "product_price": 599.99,
+      "description": "High-performance smartphone with great features.",
+      "id_category": 104,
+      "quantity": 25,
+      "status": "available",
+      "rating": 4.6,
+      "review": "Amazing camera and performance.",
+      "color_option": [
+        "White",
+        "Gray"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "Xiaomi",
+      "id_category_paren": 1
+    },
+    {
+      "id": "15",
+      "product_name": "Xiaomi Poco F3",
+      "product_image": "xm3.jpg",
+      "product_price": 349.99,
+      "description": "Mid-range smartphone with flagship features.",
+      "id_category": 104,
+      "quantity": 40,
+      "status": "available",
+      "rating": 4.5,
+      "review": "Good performance and display.",
+      "color_option": [
+        "Black",
+        "Yellow"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "Xiaomi",
+      "id_category_paren": 1
+    },
+    {
+      "id": "16",
+      "product_name": "Vivo V21",
+      "product_image": "vv1.jpg",
+      "product_price": 299.99,
+      "description": "Slim design with impressive camera performance.",
+      "id_category": 105,
+      "quantity": 25,
+      "status": "available",
+      "rating": 4.2,
+      "review": "Great selfie camera and decent performance.",
+      "color_option": [
+        "Sunset Dazzle",
+        "Dusk Blue"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "Vivo",
+      "id_category_paren": 1
+    },
+    {
+      "id": "17",
+      "product_name": "Vivo X50 Pro",
+      "product_image": "vv2.jpg",
+      "product_price": 499.99,
+      "description": "High-end camera with Gimbal stabilization.",
+      "id_category": 105,
+      "quantity": 15,
+      "status": "available",
+      "rating": 4.7,
+      "review": "Exceptional camera quality with smooth stabilization.",
+      "color_option": [
+        "Alpha Grey",
+        "Gradient Blue"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "Vivo",
+      "id_category_paren": 1
+    },
+    {
+      "id": "18",
+      "product_name": "Vivo Y20s",
+      "product_image": "vv3.jpg",
+      "product_price": 199.99,
+      "description": "Affordable phone with large battery life.",
+      "id_category": 105,
+      "quantity": 30,
+      "status": "available",
+      "rating": 4,
+      "review": "Good value for the price with great battery.",
+      "color_option": [
+        "Obsidian Black",
+        "Nebula Blue"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "Vivo",
+      "id_category_paren": 1
+    }
+  ],
+  "productChild": [
+    {
+      "id": "1",
+      "product_name": "OPPO Reno8",
+      "product_image": "op1.jpg",
+      "product_price": 249.99,
+      "description": "A stylish smartphone with advanced features.",
+      "id_category": 101,
+      "quantity": 50,
+      "status": "available",
+      "rating": 4.5,
+      "review": "Great performance and camera quality.",
+      "color_option": [
+        "Black",
+        "Gold"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "OPPO",
+      "id_category_paren": 1
+    },
+    {
+      "id": "2",
+      "product_name": "OPPO Find X5",
+      "product_image": "op2.jpg",
+      "product_price": 599.99,
+      "description": "Flagship smartphone with premium features.",
+      "id_category": 101,
+      "quantity": 30,
+      "status": "available",
+      "rating": 4.8,
+      "review": "Excellent build quality and performance.",
+      "color_option": [
+        "White",
+        "Blue"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "OPPO",
+      "id_category_paren": 1
+    },
+    {
+      "id": "3",
+      "product_name": "OPPO A74",
+      "product_image": "op3.jpg",
+      "product_price": 199.99,
+      "description": "Affordable smartphone with good features.",
+      "id_category": 101,
+      "quantity": 70,
+      "status": "available",
+      "rating": 4.2,
+      "review": "Value for money.",
+      "color_option": [
+        "Black",
+        "Red"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "OPPO",
+      "id_category_paren": 1
+    },
+    {
+      "id": "4",
+      "product_name": "OPPO A95",
+      "product_image": "op4.jpg",
+      "product_price": 249.99,
+      "description": "A sleek and powerful smartphone.",
+      "id_category": 101,
+      "quantity": 40,
+      "status": "available",
+      "rating": 4.6,
+      "review": "Very good performance for the price.",
+      "color_option": [
+        "Black",
+        "Purple"
+      ],
+      "name_category_parent": "Điện thoại",
+      "name_category_child": "OPPO",
+      "id_category_paren": 1
+    }
+  ],
+  "user": [
+    {
+      "userName": "thnnff",
+      "email": "abc@gmail.com",
+      "password": 12333,
+      "id": "9013"
+    },
+    {
+      "id": "0eca",
+      "username": "thanhnv",
+      "email": "thanhnv2923@gmail.com",
+      "password": "123456"
+    }
+  ]
+}

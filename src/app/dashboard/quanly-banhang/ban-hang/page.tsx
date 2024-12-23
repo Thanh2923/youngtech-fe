@@ -1,4 +1,6 @@
+// src/app/dashboard/quanly-banhang/ban-hang/page.tsx
 "use client";
+
 import FormLayout from "@/components/dashboard/sell/addCustomer/formLayout";
 import { ShinyRotatingBorderButton } from "@/components/dashboard/ButtonSave/BtnSave";
 import ListProductsChoose from "@/components/dashboard/sell/listProductChoose/listProductsChoose";
@@ -7,12 +9,16 @@ import ColProduct from "@/components/dashboard/sell/listProductChoose/ColProduct
 import DynamicCardsVariant2 from "@/components/dashboard/payment/chooseMethod";
 import EnterOrder from "@/components/dashboard/sell/enterOrder/enterOrder";
 import { useContext, createContext, useState } from "react";
+
+// Tạo context trong component
 export const UserContext = createContext();
-const page = () => {
+
+const Page = () => {
   const [customerId, setCustomerId] = useState(null);
   const [orderId, setOrderId] = useState(null);
   console.log(`customerId : ${customerId}`);
   console.log(`orderId : ${orderId}`);
+
   return (
     <UserContext.Provider
       value={{ customerId, setCustomerId, orderId, setOrderId }}
@@ -53,4 +59,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

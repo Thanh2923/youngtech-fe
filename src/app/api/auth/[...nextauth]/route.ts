@@ -1,3 +1,4 @@
+// src/app/api/auth/[...nextauth]/route.ts
 import NextAuth, { NextAuthOptions } from "next-auth";
 import CredentialsProvider from "next-auth/providers/credentials";
 import GoogleProvider from "next-auth/providers/google";
@@ -70,13 +71,15 @@ export const authOptions: NextAuthOptions = {
   },
   secret: process.env.NEXTAUTH_SECRET,
   session: {
-    strategy: "jwt",
+    strategy: "jwt", // Chế độ session sử dụng JWT
   },
   pages: {
-    signIn: "/auth/signin",
+    signIn: "/auth/signin", // Chỉ định trang đăng nhập
   },
 };
 
 // Tạo handler cho các phương thức HTTP
 const handler = NextAuth(authOptions);
+
+// Dùng cách export này để hỗ trợ API Routes trong Next.js 13
 export { handler as GET, handler as POST };
